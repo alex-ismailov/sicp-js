@@ -1,7 +1,7 @@
 import {
   l, isEmpty, head, tail, cons, concat, toString as listToString,
 } from '@hexlet/pairs-data';
-import { lMap } from '../../myLib/lmap';
+import { lMap } from '../../libs/seqlib';
 
 /* Упражнение 2.32.
 Множество можно представить как список его различных элементов, а
