@@ -25,14 +25,13 @@ const forEach = (fn, items) => (
 );
 
 /* ******************* filter ******************** */
-const lFilter = (predicate, sequence) => {
-  if (isEmpty(sequence)) {
+const lFilter = (fn, list) => {
+  if (isEmpty(list)) {
     return l();
   }
-  if (predicate(head(sequence))) {
-    return cons(head(sequence), lFilter(predicate, tail(sequence)));
-  }
-  return lFilter(predicate, tail(sequence));
+  return fn(head(list))
+    ? cons(head(list), lFilter(fn, tail(list)))
+    : lFilter(fn, tail(list));
 };
 
 /* ******************* reduce ******************** */
