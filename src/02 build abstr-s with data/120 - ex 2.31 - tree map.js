@@ -1,6 +1,7 @@
 import {
-  l, isEmpty, isList, head, tail, cons, toString as listToString,
+  l, isList, toString as listToString,
 } from '@hexlet/pairs-data';
+import { lMap } from '../../libs/seqlib';
 
 /* Упражнение 2.31.
 Абстрагируйте свой ответ на упражнение 2.30, получая процедуру tree-map, так,
@@ -8,25 +9,26 @@ import {
 
 (define (square-tree tree) (tree-map square tree)) */
 
-const lMap = (fn, list) => {
-  if (isEmpty(list)) {
-    return l();
-  }
-  return cons(
-    fn(head(list)),
-    lMap(fn, tail(list)),
-  );
-};
+const square = (x) => x ** 2;
 
-const tMap = (fn, tree) => lMap((elem) => {
-  if (isList(elem)) {
-    return tMap(fn, elem);
-  }
-  return fn(elem);
-}, tree);
+const tMap = (fn, tree) => (
+  lMap((curr) => (
+    isList(curr)
+      ? tMap(fn, curr)
+      : fn(curr)
+  ), tree)
+);
+
+// const tMap = (fn, tree) => lMap((elem) => {
+//   if (isList(elem)) {
+//     return tMap(fn, elem);
+//   }
+//   return fn(elem);
+// }, tree);
 
 /* solution */
-const squareTree = (tree) => tMap((elem) => elem ** 2, tree);
+/* (define (square-tree tree) (tree-map square tree)) */
+const squareTree = (tree) => tMap(square, tree);
 
 /* testing */
 const data1 = l(1, 3, 4);
