@@ -1,12 +1,13 @@
 import { l } from '@hexlet/pairs-data';
-import { lMap, lFilter, enumerateTree, show } from '../../libs/seqlib';
+import { lMap, lFilter, enumerateTree, show, foldRight } from '../../libs/seqlib';
 
 const isOdd = (n) => n % 2 !== 0;
 
 const productOfSquaresOfOddElems = (sequence) => (
-  lMap((n) => n ** 2,
-    lFilter(isOdd, 
-      enumerateTree(sequence)))
+  foldRight((curr, acc) => curr * acc, 1,
+    lMap((n) => n ** 2,
+      lFilter(isOdd, 
+        enumerateTree(sequence))))
 );
 
 // const productOfSquaresOfOddElems = (sequence) => {
@@ -15,5 +16,5 @@ const productOfSquaresOfOddElems = (sequence) => (
 // };
 
 // /* testing */
-const tree = l(1, l(2, l(3, l(4, 5), 6), 7), 8);
+const tree = l(1, l(2, l(3, l(4, 5))));
 show(productOfSquaresOfOddElems(tree));
