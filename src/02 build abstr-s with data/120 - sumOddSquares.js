@@ -5,6 +5,16 @@ import {
 const isOdd = (n) => n % 2 !== 0;
 const square = (n) => n ** 2;
 
+const sumOddSquares = (tree) => (
+  isEmpty(tree)
+    ? 0
+    : isList(head(tree))
+      ? sumOddSquares(head(tree)) + sumOddSquares(tail(tree))
+      : (isOdd(head(tree)) ? square(head(tree)) : 0)
+        +
+        sumOddSquares(tail(tree))
+);
+
 // const sumOddSquares = (tree) => {
 //   if (isEmpty(tree)) {
 //     return 0;
@@ -15,16 +25,6 @@ const square = (n) => n ** 2;
 //   const res = isOdd(head(tree)) ? square(head(tree)) : 0;
 //   return res + sumOddSquares(tail(tree));
 // };
-
-const sumOddSquares = (tree) => (
-  isEmpty(tree)
-    ? 0
-    : isList(head(tree))
-      ? sumOddSquares(head(tree)) + sumOddSquares(tail(tree))
-      : (isOdd(head(tree)) ? square(head(tree)) : 0)
-        +
-        sumOddSquares(tail(tree))
-);
 
 /* testing */
 const data = l(1, 2, l(3, l(4, 5)));
