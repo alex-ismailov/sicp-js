@@ -1,5 +1,5 @@
 import {
-  l, isEmpty, isList, cons, head, tail,
+  l, isEmpty, isList, cons, head, tail, toString as listToString
 } from '@hexlet/pairs-data';
 
 /* ******************* map ******************** */
@@ -119,7 +119,11 @@ const fringeMap = (fn, seq) => foldRight(concat, l(), lMap(fn, seq));
 /* ******************** remove ********************* */
 const remove = (elem, set) => lFilter((curr) => curr !== elem, set);
 
+/* ******************** show sequence ********************* */
+const show = (seq) => console.log(listToString(seq));
+
+
 export {
   lMap, tMap, forEach, lFilter, lReduce, foldLeft, foldRight, fringe, enumerateInterval, enumerateTree, tfringe,
-  reverse, deepReverse, fringeMap, remove,
+  reverse, deepReverse, fringeMap, remove, show,
 };
