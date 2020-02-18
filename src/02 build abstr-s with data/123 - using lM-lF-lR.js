@@ -1,7 +1,7 @@
-import { 
-  l, head, tail, isEmpty, isList, concat, toString as listToString, cons,
-} from '@hexlet/pairs-data';
-import { lMap, lFilter, foldRight, enumerateInterval, enumerateTree, show } from '../../libs/seqlib';
+import { l } from '@hexlet/pairs-data';
+import {
+  lMap, lFilter, foldRight, enumerateInterval, enumerateTree, show,
+} from '../../libs/seqlib';
 
 /* число Фиббоначи по порядковому номеру */
 const fib = (n) => {
@@ -10,7 +10,7 @@ const fib = (n) => {
       ? b
       : iter(a + b, a, count - 1)
   );
-  return iter(1, 0, n)
+  return iter(1, 0, n);
 };
 
 const isOdd = (n) => n % 2 !== 0;
@@ -19,15 +19,15 @@ const isEven = (n) => n % 2 === 0;
 /* *** solution *** */
 const sumOddSquares = (tree) => (
   foldRight((curr, acc) => curr + acc, 0,
-    lMap((n) => n ** 2, 
-      lFilter(isOdd, 
+    lMap((n) => n ** 2,
+      lFilter(isOdd,
         enumerateTree(tree))))
-); 
+);
 
-const evenFibs = (n) => (
+const evenFibs = (num) => (
   lFilter(isEven,
     lMap((n) => fib(n),
-      enumerateInterval(1, n)))
+      enumerateInterval(1, num)))
 );
 
 /* **************************** */
@@ -46,5 +46,5 @@ const evenFibs = (n) => (
 
 /* testing */
 const tree = l(1, l(2, l(3, l(4, 5))));
-show(sumOddSquares(tree))
+show(sumOddSquares(tree));
 show(evenFibs(13));
