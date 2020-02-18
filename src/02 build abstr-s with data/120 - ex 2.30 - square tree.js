@@ -1,8 +1,7 @@
 import {
   l, isEmpty, isList, head, tail, cons, toString as listToString,
 } from '@hexlet/pairs-data';
-import { lMap } from '../../myLib/lmap';
-import tMap from '../../myLib/tMap';
+import { lMap } from '../../libs/seqlib';
 
 /* Упражнение 2.30.
 Определите процедуру square-tree, подобную процедуре square-list из
@@ -17,39 +16,53 @@ import tMap from '../../myLib/tMap';
 так и с помощью map и рекурсии. */
 
 /* squareTree like square list from 2.21 ex */
-const squareTree = (tree) => {
-  if (isEmpty(tree)) {
-    return l();
-  }
-  if (isList(head(tree))) {
-    return cons(squareTree(head(tree)), squareTree(tail(tree)));
-  }
-  return cons(head(tree) ** 2, squareTree(tail(tree)));
-};
+// const squareTree = (tree) => (
+//   isEmpty(tree)
+//     ? l()
+//     : isList(head(tree))
+//       ? cons(squareTree(head(tree)), squareTree(tail(tree)))
+//       : cons(head(tree) ** 2, squareTree(tail(tree)))
+// );
+
+const squareTree = (tree) => (
+  isEmpty(tree)
+    ? l()
+    : isList(head(tree))
+      ? cons(squareTree(head(tree)), squareTree(tail(tree)))
+      : cons(head(tree) ** 2, squareTree(tail(tree)))
+);
+
+const squareTreeLMap = (tree) => (
+  lMap((curr) => (
+    isList(curr)
+      ? squareTreeLMap(curr)
+      : curr ** 2
+  ), tree)
+);
 
 /* using higher order class function - lMap */
-const squareTreeLMap = (tree) => lMap((curr) => {
-  if (isList(curr)) {
-    return squareTree(curr);
-  }
-  return curr ** 2;
-}, tree);
+// const squareTreeLMap = (tree) => lMap((curr) => {
+//   if (isList(curr)) {
+//     return squareTree(curr);
+//   }
+//   return curr ** 2;
+// }, tree);
 
 /* testing */
 const data1 = l(1, 3, 4);
 console.log(listToString(squareTree(data1)));
 console.log(listToString(squareTreeLMap(data1)));
 /* using my tMap */
-console.log(listToString(tMap((elem) => elem ** 2, data1)));
+// console.log(listToString(tMap((elem) => elem ** 2, data1)));
 
 const data2 = l(1, l(2, 3), 4);
 console.log(listToString(squareTree(data2)));
 console.log(listToString(squareTreeLMap(data2)));
 /* using my tMap */
-console.log(listToString(tMap((elem) => elem ** 2, data2)));
+// console.log(listToString(tMap((elem) => elem ** 2, data2)));
 
 const data3 = l(1, l(2, l(3, l(4, 5), 6), 7), 8);
 console.log(listToString(squareTree(data3)));
 console.log(listToString(squareTreeLMap(data3)));
 /* using my tMap */
-console.log(listToString(tMap((elem) => elem ** 2, data3)));
+// console.log(listToString(tMap((elem) => elem ** 2, data3)));
