@@ -122,8 +122,11 @@ const remove = (elem, set) => lFilter((curr) => curr !== elem, set);
 /* ******************** show sequence ********************* */
 const show = (seq) => console.log(listToString(seq));
 
+/* ******************** flatMap ********************* */
+const flatMap = (fn, seq) => foldRight(concat, l(), lMap(fn, seq));
+
 
 export {
   lMap, tMap, forEach, lFilter, lReduce, foldLeft, foldRight, concat, fringe, enumerateInterval, enumerateTree, tfringe,
-  reverse, deepReverse, fringeMap, remove, show,
+  reverse, deepReverse, fringeMap, remove, show, flatMap,
 };
