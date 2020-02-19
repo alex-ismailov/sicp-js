@@ -124,6 +124,6 @@ const show = (seq) => console.log(listToString(seq));
 
 
 export {
-  lMap, tMap, forEach, lFilter, lReduce, foldLeft, foldRight, fringe, enumerateInterval, enumerateTree, tfringe,
+  lMap, tMap, forEach, lFilter, lReduce, foldLeft, foldRight, concat, fringe, enumerateInterval, enumerateTree, tfringe,
   reverse, deepReverse, fringeMap, remove, show,
 };
