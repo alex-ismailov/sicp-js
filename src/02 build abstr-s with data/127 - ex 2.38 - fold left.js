@@ -1,7 +1,7 @@
 import {
   l, isEmpty, head, tail, cons, toString as listToString,
 } from '@hexlet/pairs-data';
-import { foldRight } from '../../myLib/higherOrderFunctions';
+import { show, foldRight } from '../../libs/seqlib';
 
 /* Упражнение 2.38.
 Процедура accumulate известна также как fold-right (правая свертка), поскольку она
@@ -23,26 +23,30 @@ import { foldRight } from '../../myLib/higherOrderFunctions';
 (fold-right list nil (list 1 2 3))
 (fold-left list nil (list 1 2 3)) */
 
-/* Не уверен, что это правильное решение */
+const foldLeft = (cb, acc, seq) => (
+  isEmpty(seq)
+    ? acc
+    : foldLeft(cb, cb(head(seq), acc), tail(seq))
+);
 
-const foldLeft = (fn, initial, sequence) => {
-  const iter = (acc, rest) => {
-    if (isEmpty(rest)) {
-      return acc;
-    }
-    return iter(fn(head(rest), acc), tail(rest));
-  };
-  return iter(initial, sequence);
-};
+// const foldLeft = (fn, initial, sequence) => {
+//   const iter = (acc, rest) => {
+//     if (isEmpty(rest)) {
+//       return acc;
+//     }
+//     return iter(fn(head(rest), acc), tail(rest));
+//   };
+//   return iter(initial, sequence);
+// };
 
 /* testing */
 const list = l(1, 2, 3, 4, 5);
-console.log(listToString(foldRight((acc, curr) => acc / curr, 1, list)));
-console.log(listToString(foldLeft((acc, curr) => acc / curr, 1, list)));
 
-console.log(listToString(foldRight((acc, curr) => l(acc, curr), l(), list)));
-console.log(listToString(foldLeft((acc, curr) => l(acc, curr), l(), list)));
+show(foldLeft(cons, l(), list));
+show(foldRight(cons, l(), list));
 
+show(foldLeft(l, l(), list));
+show(foldRight(l, l(), list));
 
-console.log(listToString(foldRight((acc, curr) => cons(acc, curr), l(), list)));
-console.log(listToString(foldLeft((acc, curr) => cons(acc, curr), l(), list)));
+show(foldLeft((acc, curr) => acc / curr, 1, list));
+show(foldRight((acc, curr) => acc / curr, 1, list));
