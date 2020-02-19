@@ -3,24 +3,40 @@ import {
 } from '@hexlet/pairs-data';
 import {
   flatMap, lMap, enumerateInterval, lFilter, foldRight,
-} from '../../myLib/seqlib';
+} from '../../libs/seqlib';
 
-const uniqueTriples = (n) => (
-  flatMap((i) => flatMap(
-    (j) => lMap((k) => l(i, j, k),
+const makeTriples = (n) => (
+  flatMap((i) => flatMap((j) => lMap((k) => l(i, j, k),
       enumerateInterval(1, j - 1)),
-    enumerateInterval(1, i - 1),
-  ),
+    enumerateInterval(1, i - 1)),
   enumerateInterval(1, n))
 );
 
-const triplesSum = (s) => (
-  lFilter((triple) => (s === foldRight((curr, acc) => acc + curr, 0, triple)),
-    uniqueTriples(6))
+const tripleSum = (triple) => (
+  foldRight((curr, acc) => acc + curr, 0, triple)
 );
 
+const triplesSum = (n) => (
+  lFilter((triple) => tripleSum(triple) === n, 
+    makeTriples(n))
+);
+
+// const uniqueTriples = (n) => (
+//   flatMap((i) => flatMap(
+//     (j) => lMap((k) => l(i, j, k),
+//       enumerateInterval(1, j - 1)),
+//     enumerateInterval(1, i - 1),
+//   ),
+//   enumerateInterval(1, n))
+// );
+
+// const triplesSum = (s) => (
+//   lFilter((triple) => (s === foldRight((curr, acc) => acc + curr, 0, triple)),
+//     uniqueTriples(s))
+// );
+
 /* testing */
-for (let i = 0; i < 10000; i += 1) {
+for (let i = 0; i < 15; i += 1) {
   const res = triplesSum(i);
   if (!isEmpty(res)) {
     console.log(`i = ${i}, triples: ${listToString(res)}`);
