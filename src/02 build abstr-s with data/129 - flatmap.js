@@ -1,7 +1,7 @@
+import { l, concat } from '@hexlet/pairs-data';
 import {
-  l, concat, toString as listToString,
-} from '@hexlet/pairs-data';
-import { foldRight, lMap, enumerateInterval, show } from '../../libs/seqlib';
+  foldRight, lMap, enumerateInterval, show,
+} from '../../libs/seqlib';
 
 const flatMap = (cb, seq) => (
   foldRight(concat, l(), lMap(cb, seq))
@@ -11,7 +11,7 @@ const flatMap = (cb, seq) => (
 
 /* testing */
 const pairs = (n) => flatMap((i) => lMap((j) => l(i, j),
-    enumerateInterval(1, i - 1)),
-  enumerateInterval(1, n - 1));
+  enumerateInterval(1, i - 1)),
+enumerateInterval(1, n - 1));
 
 show(pairs(4));
