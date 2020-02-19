@@ -1,7 +1,9 @@
 import {
-  l, isEmpty, head, tail, cons, toString as listToString,
+  l, isEmpty, head, tail, cons,
 } from '@hexlet/pairs-data';
-import { lMap, lReduce } from '../../myLib/higherOrderFunctions';
+import {
+  lMap, show, foldRight,
+} from '../../libs/seqlib';
 
 /* Упражнение 2.36.
 Процедура accumulate-n подобна accumulate, только свой третий аргумент она воспринимает
@@ -18,15 +20,31 @@ import { lMap, lReduce } from '../../myLib/higherOrderFunctions';
     (cons (accumulate op init <??>)
           (accumulate-n op init <??>)))) */
 
-const accumulateN = (cb, acc, seqs) => {
-  if (isEmpty(head(seqs))) {
-    return l();
-  }
-  return cons(lReduce(cb, acc, lMap(head, seqs)), accumulateN(cb, acc, lMap(tail, seqs)));
-};
+const accumulateN = (cb, acc, seq) => (
+  isEmpty(head(seq))
+    ? l()
+    : cons(
+      foldRight(cb, acc, lMap(head, seq)),
+      accumulateN(cb, acc, lMap(tail, seq)),
+    )
+);
+
+// const accumulateN = (cb, acc, seqs) => {
+//   if (isEmpty(head(seqs))) {
+//     return l();
+//   }
+//   return cons(lReduce(cb, acc, lMap(head, seqs)), accumulateN(cb, acc, lMap(tail, seqs)));
+// };
 
 /* testing */
 const setOfsets = l(l(1, 2, 3), l(4, 5, 6), l(7, 8, 9), l(10, 11, 12));
-console.log(listToString(accumulateN((curr, acc) => curr + acc, 0, setOfsets)));
-const test = cons(22, cons(26, cons(30, l())));
-console.log(listToString(test));
+show(accumulateN((curr, acc) => curr + acc, 0, setOfsets));
+
+/* *********************** */
+const makeGroups = (set) => (
+  isEmpty(head(set))
+    ? l()
+    : cons(lMap(head, set), makeGroups(lMap(tail, set)))
+);
+
+show(makeGroups(setOfsets));
