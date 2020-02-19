@@ -11,13 +11,7 @@ foldright и fold-left из упражнения 2.38:
 (define (reverse sequence)
   (fold-left (lambda (x y) <??>) nil sequence)) */
 
-// const foldRight = (fn, acc, sequence) => {
-//   if (isEmpty(sequence)) {
-//     return acc;
-//   }
-//   return fn(head(sequence), foldRight(fn, acc, tail(sequence)));
-// };
-
+/* *** solution *** */
 /* foldLeft reverse */
 const reverse1 = (seq) => (
   foldLeft(cons, l(), seq)
