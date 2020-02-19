@@ -1,9 +1,9 @@
 import {
-  l, cons, isEmpty, toString as listToString,
+  l, cons, isEmpty,
 } from '@hexlet/pairs-data';
 import {
-  lMap, lFilter, flatMap,
-} from '../../myLib/seqlib';
+  lMap, lFilter, flatMap, show,
+} from '../../libs/seqlib';
 
 /* Вложенные отображения полезны не только для таких последовательностей, которые
 перечисляют интервалы (как в 128 - makeSeqOfOrderedPairs). Допустим, нам нужно
@@ -14,12 +14,19 @@ import {
 
 const remove = (elem, set) => lFilter((curr) => !(curr === elem), set);
 
-const permutations = (s) => (isEmpty(s)
-  ? l(null)
-  : flatMap((x) => lMap((p) => cons(x, p),
-    permutations(remove(x, s))),
-  s));
+const permutations = (s) => (
+  isEmpty(s)
+    ? l(l())
+    : flatMap((x) => lMap((p) => cons(x, p),
+      permutations(remove(x, s))),
+    s)
+);
+// const permutations = (s) => (isEmpty(s)
+//   ? l(null)
+//   : flatMap((x) => lMap((p) => cons(x, p),
+//     permutations(remove(x, s))),
+//   s));
 
 /* testing */
 const set = l(1, 2, 3);
-console.log(listToString(permutations(set)));
+show(permutations(set));
