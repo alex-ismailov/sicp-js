@@ -1,9 +1,10 @@
 import {
-  l, head, tail, concat, toString as listToString,
+  l, head, tail, concat,
 } from '@hexlet/pairs-data';
+
 import {
-  foldRight, lMap, enumerateInterval, lFilter,
-} from '../../myLib/seqlib';
+  foldRight, lMap, enumerateInterval, lFilter, show,
+} from '../../libs/seqlib';
 
 /* Рассмотрим
 следующую задачу: пусть дано положительное целое число n;
@@ -20,10 +21,9 @@ const isPrime = (n) => {
     if (testDiv > Math.floor(Math.sqrt(n))) {
       return true;
     }
-    if (n % testDiv === 0) {
-      return false;
-    }
-    return iter(testDiv + 1);
+    return n % testDiv === 0
+      ? false
+      : iter(testDiv + 1);
   };
   return iter(2);
 };
@@ -32,11 +32,19 @@ const flatMap = (fn, seq) => foldRight(concat, l(), lMap(fn, seq));
 const isPrimeSum = (pair) => isPrime(head(pair) + head(tail(pair)));
 const makePairSum = (pair) => l(head(pair), head(tail(pair)), head(pair) + head(tail(pair)));
 
-const primeSumPair = (n) => {
-  const orderedPairs = flatMap((i) => lMap((j) => l(i, j), enumerateInterval(1, i - 1)), enumerateInterval(1, n));
-  const filtered = lFilter(isPrimeSum, orderedPairs);
-  return lMap(makePairSum, filtered);
-};
+const primeSumPair = (n) => (
+  lMap(makePairSum,
+    lFilter(isPrimeSum,
+      flatMap((i) => lMap((j) => l(i, j),
+        enumerateInterval(1, i - 1)),
+      enumerateInterval(1, n))))
+);
+
+// const primeSumPair = (n) => {
+//   const orderedPairs = flatMap((i) => lMap((j) => l(i, j), enumerateInterval(1, i - 1)), enumerateInterval(1, n));
+//   const filtered = lFilter(isPrimeSum, orderedPairs);
+//   return lMap(makePairSum, filtered);
+// };
 
 /* testing */
-console.log(listToString(primeSumPair(6)));
+show(primeSumPair(6));
