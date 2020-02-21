@@ -1,4 +1,4 @@
-import { l, isEmpty } from "@hexlet/pairs-data";
+import { l, isEmpty, cons } from "@hexlet/pairs-data";
 import { lFilter, flatMap, lMap, enumerateInterval, foldRight, show } from "../../libs/seqlib";
 
 // const queens = (boardSize) => {
@@ -47,5 +47,5 @@ const queens = (boardSize) => {
   return queenCols(boardSize);
 };
 
-// show(queens(l(8, 8))); It is not work !!!!
+show(queens(8)); // It is not work !!!!
 
