@@ -125,8 +125,25 @@ const show = (seq) => console.log(listToString(seq));
 /* ******************** flatMap ********************* */
 const flatMap = (fn, seq) => foldRight(concat, l(), lMap(fn, seq));
 
+/* ******************** isEqual ********************* */
+const isEqual = (a, b) => {
+  if (isEmpty(a) && isEmpty(b)) {
+    return true;
+  }
+  if (isEmpty(a) !== isEmpty(b)) {
+    return false;
+  }
+  if (isList(head(a)) && isList(head(b))) {
+    return isEqual(head(a), head(b));
+  }
+  if (head(a) === head(b)) {
+    return isEqual(tail(a), tail(b));
+  }
+  return false;
+};
+
 
 export {
   lMap, tMap, forEach, lFilter, lReduce, foldLeft, foldRight, concat, fringe, enumerateInterval, enumerateTree, tfringe,
-  reverse, deepReverse, fringeMap, remove, show, flatMap,
+  reverse, deepReverse, fringeMap, remove, show, flatMap, isEqual,
 };
