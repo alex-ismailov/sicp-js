@@ -15,13 +15,13 @@ adjoinSet (добавление элемента) - принимает как а
 плюс добавленный элемент. 
 */
 
-// ***************
+// ******** source academy ver *******
 // const elementOfSet = (x, set) => (
 //   ! isEmpty(set) &&
 //     (x === head(set) || elementOfSet(x, tail(set))) 
 // );
 
-// ***************
+// ******* 1 ver ********
 // const elementOfSet = (x, set) => {
 //   if (isEmpty(set)) {
 //     return false;
@@ -42,6 +42,7 @@ l(1, 2, l(3, 5, 6)) - не верно.
 Не могу понять set может быть деревом? Или set это всегда линейный связный список?
 */
 
+// ******* 2 ver ********
 const elementOfSet = (x, set) => {
   if (isEmpty(set)) {
     return false;
