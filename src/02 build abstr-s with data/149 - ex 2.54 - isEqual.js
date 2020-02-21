@@ -53,7 +53,9 @@ const list4 = l('this', l('is', 'a'), 'list');
 const list5 = l('this', l('is', 'b'), 'list');
 const list6 = l('this', l('is'), 'list');
 
+
 console.log(isEqual(l(), l())); // true
+console.log(isEqual(l(l()), l(l())));
 console.log(isEqual(list1, list2)); // true
 console.log(isEqual(list1, list3)); // false
 console.log(isEqual(list3, list4)); // true
