@@ -54,14 +54,16 @@ const list5 = l('this', l('is', 'b'), 'list');
 const list6 = l('this', l('is'), 'list');
 
 
-console.log(isEqual(l(), l())); // true
-console.log(isEqual(l(l()), l(l())));
-console.log(isEqual(list1, list2)); // true
-console.log(isEqual(list1, list3)); // false
-console.log(isEqual(list3, list4)); // true
-console.log(isEqual(list4, list5)); // false
-console.log(isEqual(list1, list5)); // false
-console.log(isEqual(list5, list6)); // false
+// console.log(isEqual(l(), l())); // true
+// console.log(isEqual(l(l()), l(l()))); // true
+// console.log(isEqual(list1, list2)); // true
+// console.log(isEqual(list1, list3)); // false
+// console.log(isEqual(list3, list4)); // true
+// console.log(isEqual(list4, list5)); // false
+// console.log(isEqual(list1, list5)); // false
+// console.log(isEqual(list5, list6)); // false
+console.log('------------------------');
+console.log(isEqual(1, 1));
 
 // const nums1 = l(1, 2, 3);
 // const nums2 = l(1, 2, 4);
