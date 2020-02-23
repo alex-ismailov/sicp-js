@@ -1,5 +1,5 @@
 ## SICP - JavaScript adaptation
-![alt-текст](https://github.com/alex-ismailov/testReadMe/blob/master/imgs/sicp.png)
+![alt-текст](https://github.com/alex-ismailov/sicp-js/blob/master/imgs/sicp.png)
 
 Примеры и решения упражнений из курса SICP
 
