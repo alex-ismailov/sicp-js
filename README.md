@@ -87,4 +87,7 @@
 * [156 - ex 2.59 union set.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/156%20-%20ex%202.59%20union%20set.js)
 * [156 - ex 2.60 - set api (set with repetitions)](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/156%20-%20ex%202.60%20-%20set%20api%20(set%20with%20repetitions).js).js
 * [156 - sets as ordered list.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/156%20-%20sets%20as%20ordered%20list.js)
-* 
+* [157 - ex 2.61 - adjoin (ordered set).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/157%20-%20ex%202.61%20-%20adjoin%20(ordered%20set).js)
+* [159 - ex 2.62 - unionSet (ordered set).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/159%20-%20ex%202.62%20-%20unionSet%20(ordered%20set).js)
+*
+
