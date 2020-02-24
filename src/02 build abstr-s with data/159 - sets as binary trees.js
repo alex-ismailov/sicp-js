@@ -1,11 +1,10 @@
 import {
-  isEmpty, head, tail, cons, l,
+  isEmpty, head, tail, l,
 } from '@hexlet/pairs-data';
-import { show } from '../../libs/seqlib';
 
-const entry = (tree) => head(tree);
-const leftBranch = (tree) => head(tail(tree));
-const rightBranch = (tree) => head(tail(tail(tree)));
+const getEntry = (tree) => head(tree);
+const getLeftBranch = (tree) => head(tail(tree));
+const getRightBranch = (tree) => head(tail(tail(tree)));
 
 const makeTree = (entry, leftBranch, rightBranch) => (
   l(entry, leftBranch, rightBranch)
@@ -15,12 +14,12 @@ const isElementOfSet = (x, set) => {
   if (isEmpty(set)) {
     return false;
   }
-  if (x === entry(set)) {
+  if (x === getEntry(set)) {
     return true;
   }
-  return x < entry(set)
-    ? isElementOfSet(x, leftBranch(set))
-    : isElementOfSet(x, rightBranch(set))
+  return x < getEntry(set)
+    ? isElementOfSet(x, getLeftBranch(set))
+    : isElementOfSet(x, getRightBranch(set));
 };
 
 /* testing */
