@@ -18,15 +18,13 @@ const adjoinSet = (x, set) => {
     : makeTree(entry(set), leftBranch(set), adjoinSet(x, rightBranch(set)))
 };
 
-const treeToList1 = (tree) => {
-  if (isEmpty(tree)) {
-    return l();
-  }
-  return concat(
-    treeToList1(leftBranch(tree)),
-    cons(entry(tree), treeToList1(rightBranch(tree)))
-  );
-};
+const treeToList1 = (tree) => (
+  isEmpty(tree)
+    ? l()
+    : concat(
+      treeToList1(leftBranch(tree)),
+      cons(entry(tree), treeToList1(rightBranch(tree))))
+);
 
 const treeToList2 = (set) => {
   const iter = (tree, acc) => (
