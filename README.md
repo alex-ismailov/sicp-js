@@ -31,7 +31,7 @@
 * [114 - ex 2.21 - square list.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/114%20-%20ex%202.21%20-%20square%20list.js)
 * [115 - ex 2.23 - for-each.js	Init sicp-js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/115%20-%20ex%202.23%20-%20for-each.js)
 
-#### 2.2.2. Иерархические структуры
+##### 2.2.2. Иерархические структуры
 * [116 - count leaves (tree).js	Init sicp-js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/116%20-%20count%20leaves%20(tree).js)
 * [117 - ex 2.24 - pict of tree.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/117%20-%20ex%202.24%20-%20pict%20of%20tree.js)
 * [117 - ex 2.25 - cdr car.js	Init sicp-js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/117%20-%20ex%202.25%20-%20cdr%20car.js)
@@ -98,6 +98,6 @@
 * [157 - ex 2.61 - adjoin (ordered set).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/157%20-%20ex%202.61%20-%20adjoin%20(ordered%20set).js)
 * [159 - ex 2.62 - unionSet (ordered set).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/159%20-%20ex%202.62%20-%20unionSet%20(ordered%20set).js)
 * [159 - sets as binary trees.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/159%20-%20sets%20as%20binary%20trees.js)
-* [161 - ex 2.63 - treeToList (bin tree).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/161%20-%20ex%202.63%20-%20treeToList%20(bin%20tree).js
-* )
+* [161 - ex 2.63 - treeToList (bin tree).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/161%20-%20ex%202.63%20-%20treeToList%20(bin%20tree).js)
+* 
 
