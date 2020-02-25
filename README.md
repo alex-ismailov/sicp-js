@@ -15,7 +15,7 @@
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
 ##### 2.2.1. Представление последовательностей
-##### Операции со списками
+###### Операции со списками
 * [109 - listRef.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/109%20-%20listRef.js)
 * [110 - append (concat).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/110%20-%20append%20(concat).js)
 * [110 - length (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/110%20-%20length%20(linear%20iterative).js)
@@ -25,7 +25,7 @@
 * [112 - ex 2.20 - carry (js sicp).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/112%20-%20ex%202.20%20-%20carry%20(js%20sicp).js)
 * [112 - ex 2.20 - same parity.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/112%20-%20ex%202.20%20-%20same%20parity.js)
 
-##### Отображение списков
+###### Отображение списков
 * [112 - scale list.js	Init sicp-js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/112%20-%20scale%20list.js)
 * [113 - map.js	Init sicp-js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/113%20-%20map.js)
 * [114 - ex 2.21 - square list.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/114%20-%20ex%202.21%20-%20square%20list.js)
@@ -40,7 +40,7 @@
 * [118 - ex 2.28 - fringe (flat).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/118%20-%20ex%202.28%20-%20fringe%20(flat).js)
 * [118 - ex 2.28 - fringe (using fold right).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/118%20-%20ex%202.28%20-%20fringe%20(using%20fold%20right).js)
 
-##### Отображение деревьев
+###### Отображение деревьев
 * [119 - scale tree (trees).js	Init sicp-js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/119%20-%20scale%20tree%20(trees).js)
 * [119 - scale tree using lMap (trees).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/119%20-%20scale%20tree%20using%20lMap%20(trees).js)
 * [119 - tMap (trees).js	Init sicp-js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/119%20-%20tMap%20(trees).js)
@@ -52,7 +52,7 @@
 * [120 - sumOddSquares.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/120%20-%20sumOddSquares.js)
 * [121 - even Fibs.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/121%20-%20even%20Fibs.js)
 
-##### Операции над последовательностями
+###### Операции над последовательностями
 * [122 - map square.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/122%20-%20map%20square.js)
 * [122.b - filter.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/122.b%20-%20filter.js)
 * [122.c - foldLeft (accumulate).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/122.c%20-%20foldLeft%20(accumulate).js)
@@ -68,7 +68,7 @@
 * [127 - ex 2.38 - fold left.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/127%20-%20ex%202.38%20-%20fold%20left.js)
 * [128 - ex 2.39 - reverse (foldLeft-Right).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/128%20-%20ex%202.39%20-%20reverse%20(foldLeft-Right).js)
 
-##### Вложенные отображения
+###### Вложенные отображения
 * [128 - makeSeqOfOrderedPairs.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/128%20-%20makeSeqOfOrderedPairs.js)
 * [129 - flatmap.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/129%20-%20flatmap.js)
 * [129 - primeSumPair.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/129%20-%20primeSumPair.js)
