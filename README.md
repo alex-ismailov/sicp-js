@@ -18,6 +18,10 @@
 * [52 - ex 1.9 - sum(inc).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/52%20-%20ex%201.9%20-%20sum(inc).js)
 * [52 - ex 1.10 - Ackermann function.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/52%20-%20ex%201.10%20-%20Ackermann%20function.js)
 
+##### 1.2.2. Древовидная рекурсия
+* []()
+
+
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
 ##### 2.2.1. Представление последовательностей
