@@ -6,11 +6,11 @@
 авт. Harold Abelson and Gerald Jay Sussman with Julie Sussman 
 
 ### 1. Построение абстракций с помощью процедур
-1.1. Элементы программирования
-* []()
-* []()
-* []()
-* []()
+#### 1.1. Элементы программирования
+* [40 - sqrt (Nyuton method).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/40%20-%20sqrt%20(Nyuton%20method).js)
+* [42 - ex 1.6 - new if (if as function).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/42%20-%20ex%201.6%20-%20new%20if%20(if%20as%20function).js)
+* [43 - ex 1.7 - goodEnough (better).js](https://github.com/alex-ismailov/sicp-js/tree/master/src/01%20build%20abstr-s%20with%20procedurs)
+* [43 - ex 1.8 - cube sqrt.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/43%20-%20ex%201.8%20-%20cube%20sqrt.js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
