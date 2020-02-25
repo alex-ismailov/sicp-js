@@ -11,6 +11,8 @@
 * [42 - ex 1.6 - new if (if as function).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/42%20-%20ex%201.6%20-%20new%20if%20(if%20as%20function).js)
 * [43 - ex 1.7 - goodEnough (better).js](https://github.com/alex-ismailov/sicp-js/tree/master/src/01%20build%20abstr-s%20with%20procedurs)
 * [43 - ex 1.8 - cube sqrt.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/43%20-%20ex%201.8%20-%20cube%20sqrt.js)
+
+##### 1.2.1. Линейные рекурсия и итерация
 * [49 - factorial (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/49%20-%20factorial%20(linear%20recursive).js)
 * [50 - factorial (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/50%20-%20factorial%20(linear%20iterative).js)
 * [52 - ex 1.9 - sum(inc).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/52%20-%20ex%201.9%20-%20sum(inc).js)
