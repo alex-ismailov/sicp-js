@@ -16,8 +16,9 @@ const pascalTriangle = (r, c) => (
     : pascalTriangle(r - 1, c - 1) + pascalTriangle(r - 1, c)
 );
 
-// look pict: 
-
 /* testing */
 console.log(pascalTriangle(3, 2));
 console.log(pascalTriangle(4, 2));
+
+
+/* look pict: https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/57%20-%20ex%201.12%20-%20Pascal%E2%80%99s%20triangle.png */
