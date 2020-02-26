@@ -27,6 +27,9 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [57 - ex 1.11 - f(n).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/57%20-%20ex%201.11%20-%20f(n).js)
 * [57 - ex 1.12 - Pascal’s triangle.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/57%20-%20ex%201.12%20-%20Pascal%E2%80%99s%20triangle.js)
 
+##### 1.2.3. Порядки роста
+* 59 - ex 1.14 - countChange pict of tree.png [pict 1](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20ex%201.14%20%20-%20countChange%20pict%20of%20tree.png) [pict 2](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20ex%201.14.2%20-%20countChange%20pict%20of%20tree.png)
+
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
 ##### 2.2.1. Представление последовательностей
