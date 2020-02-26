@@ -3,7 +3,9 @@
 
 Примеры и решения упражнений из курса SICP
 
-авт. Harold Abelson and Gerald Jay Sussman with Julie Sussman 
+авт. Harold Abelson and Gerald Jay Sussman with Julie Sussman
+
+src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga/sicp/sicp.pdf)
 
 ### 1. Построение абстракций с помощью процедур
 #### 1.1. Элементы программирования
