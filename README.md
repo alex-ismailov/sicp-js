@@ -34,6 +34,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [59 - expt (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20expt%20(linear%20recursive).js)
 * [59 - expt (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20expt%20(linear%20iterative).js)
 * [60 - fast expt (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20expt%20(linear%20recursive).js) ([pict](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20expt%20%26%20expt.png))
+* [61 - ex 1.16 - fast expt (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/61%20-%20ex%201.16%20-%20fast%20expt%20(linear%20iterative).js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
