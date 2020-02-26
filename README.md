@@ -31,9 +31,9 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [59 - ex 1.14 - countChange pict of tree.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20ex%201.14%20%20-%20countChange%20pict%20of%20tree.js): [pict 1](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20ex%201.14%20%20-%20countChange%20pict%20of%20tree.png), [pict 2](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20ex%201.14.2%20-%20countChange%20pict%20of%20tree.png)
 
 ##### 1.2.4. Возведение в степень
-* [59 - expt (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20exponentiation%20(linear%20recursive).js)
-* [59 - expt (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20exponentiation%20(linear%20iterative).js)
-* [60 - fast expt (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20exponentiation.js) ([pict](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20exponentiation.png))
+* [59 - expt (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20expt%20(linear%20recursive).js)
+* [59 - expt (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20expt%20(linear%20iterative).js)
+* [60 - fast expt (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20expt%20(linear%20recursive).js) ([pict](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20expt%20%26%20expt.png))
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
