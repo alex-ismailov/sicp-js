@@ -21,7 +21,7 @@
 ##### 1.2.2. Древовидная рекурсия
 * [53 - fibonacci(tree recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/53%20-%20fibonacci(tree%20recursive).js)
 * [55 - fibonacci(linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/55%20-%20fibonacci(linear%20iterative).js)
-
+* [56 - countChange.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/56%20-%20countChange.js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
