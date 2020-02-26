@@ -33,6 +33,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 ##### 1.2.4. Возведение в степень
 * [59 - exponentiation (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20exponentiation%20(linear%20recursive).js)
 * [59 - exponentiation (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/59%20-%20exponentiation%20(linear%20iterative).js)
+* [60 - fast exponentiation.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20exponentiation.js) ([pict](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/60%20-%20fast%20exponentiation.png))
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
