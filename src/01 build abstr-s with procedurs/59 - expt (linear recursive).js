@@ -1,4 +1,4 @@
-/* linear recursive process */
+/* linear recursive process - Θ(n) */
 const expt = (n, e) => (
   e === 0
     ? 1

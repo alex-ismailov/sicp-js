@@ -1,4 +1,4 @@
-/* linear iterative process */
+/* linear iterative process - Θ(n) */
 const expt = (num, e) => {
   const iter = (n, acc, count) => (
     count === 0
