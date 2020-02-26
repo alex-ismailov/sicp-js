@@ -24,5 +24,6 @@ const countChange = (amount) => cc(amount, 5);
 console.log(countChange(4));
 console.log(countChange(5));
 console.log(countChange(7));
+console.log(countChange(11));
 console.log(countChange(50));
 console.log(countChange(100));
