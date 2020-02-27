@@ -41,7 +41,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 
 ##### 1.2.5. Нахождение наибольшего общего делителя
 * [63 - gcd (Euclid’s Algorithm).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/63%20-%20gcd%20(Euclid%E2%80%99s%20Algorithm).js)
-* 
+
+##### 1.2.6. Пример: проверка на простоту
+###### Поиск делителей
+* [64 - isPrime (smallest div).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/64%20-%20isPrime%20(smallest%20div).js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
