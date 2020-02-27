@@ -19,6 +19,7 @@ const isPrime = (n) => n === smallestDivisor(n);
 console.log(isPrime(7)); // true
 console.log(isPrime(12));// false
 console.log(isPrime(13));// true
+console.log(isPrime(561));// false
 
 console.log(smallestDivisor(7)); // 7
 console.log(smallestDivisor(12));// 2
