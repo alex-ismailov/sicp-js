@@ -37,7 +37,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [61 - ex 1.16 - fast expt (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/61%20-%20ex%201.16%20-%20fast%20expt%20(linear%20iterative).js)
 * [61 - ex 1.17 - fastMult (recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/61%20-%20ex%201.17%20-%20fastMult%20(recursive).js)
 * [61 - ex 1.18 - fastMult (iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/61%20-%20ex%201.18%20-%20fastMult%20(iterative).js)
-* [61 - ex 1.19 fast fib]()
+* 61 - ex 1.19 fast fib
 * []()
 
 ### 2. Построение абстракций с помощью данных.
