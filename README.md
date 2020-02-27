@@ -38,7 +38,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [61 - ex 1.17 - fastMult (recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/61%20-%20ex%201.17%20-%20fastMult%20(recursive).js)
 * [61 - ex 1.18 - fastMult (iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/61%20-%20ex%201.18%20-%20fastMult%20(iterative).js)
 * 61 - ex 1.19 fast fib
-* []()
+
+##### 1.2.5. Нахождение наибольшего общего делителя
+* [63 - gcd (Euclid’s Algorithm).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/63%20-%20gcd%20(Euclid%E2%80%99s%20Algorithm).js)
+* 
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
