@@ -13,6 +13,7 @@
 
 const isEven = (n) => n % 2 === 0;
 
+/* O(log(n)) */
 const expt = (b, n) => {
   const iter = (acc, b, n) => {
     if (n === 0) {
