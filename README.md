@@ -47,6 +47,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [64 - isPrime (smallest div).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/64%20-%20isPrime%20(smallest%20div).js)
 * [65 - isPrime (Fermat test).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/65%20-%20isPrime%20(Fermat%20test).js)
 * [67 - ex 1.21 - smallest divisor.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/67%20-%20ex%201.21%20-%20smallest%20divisor.js)
+* [67 - ex 1.22 - timed prime test .js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/67%20-%20ex%201.22%20-%20timed%20prime%20test%20.js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
