@@ -1,6 +1,6 @@
-/* Тест Ферма
+/* Тест Ферма - Θ(log(n))
 
-n - проверямое число
+n - проверямое число 
 a - любое N число < n
 
 Если (a ** n) % n === a , то n с большой долей вероятности простое число */
@@ -18,7 +18,7 @@ const expmod = (base, exp, m) => {
     : (base * expmod(base, exp - 1, m)) % m;
 };
 
-// const expmod2 = (a, n) => (a ** n) % n;
+// const expmod = (a, n, m) => (a ** n) % m; // have bug
 
 const fermatTest = (n) => {
   const tryIt = (a) => expmod(a, n, n) === a;
@@ -43,4 +43,8 @@ console.log(isPrime(4, 3)); // false
 console.log(isPrime(7, 3)); // true
 console.log(isPrime(12, 3)); // false
 console.log(isPrime(17, 3)); // true
+
+console.log(isPrime(139, 3)); // true
+console.log(isPrime(179, 3)); // true
+
 // console.log(isPrime(561, 100)); // true -> Carmichael numbers ! is not prime
