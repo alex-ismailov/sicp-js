@@ -53,6 +53,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [69 - ex 1.27 - Carmichael numbers.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/69%20-%20ex%201.27%20-%20Carmichael%20numbers.js)
 * [69 - ex 1.28 - isPrime (Miller-Rabin test).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/69%20-%20ex%201.28%20-%20isPrime%20(Miller-Rabin%20test).js)
 
+#### 1.3. Формулирование абстракций с помощью процедур высших порядков
+##### 1.3.1. Процедуры в качестве аргументов
+* [70 - sum integers.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/70%20-%20sum%20integers.js)
+* [71 - sum as higher order function.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/71%20-%20sum%20as%20higher%20order%20function.js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
