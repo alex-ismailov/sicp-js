@@ -48,6 +48,11 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [65 - isPrime (Fermat test).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/65%20-%20isPrime%20(Fermat%20test).js)
 * [67 - ex 1.21 - smallest divisor.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/67%20-%20ex%201.21%20-%20smallest%20divisor.js)
 * [67 - ex 1.22 - timed prime test .js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/67%20-%20ex%201.22%20-%20timed%20prime%20test%20.js)
+* [68 - ex 1.23 - faster smallest divisor.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/68%20-%20ex%201.23%20-%20faster%20smallest%20divisor.js)
+* [68 - ex 1.24 - timed prime test (Fermat test).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/68%20-%20ex%201.24%20-%20timed%20prime%20test%20(Fermat%20test).js)
+* [69 - ex 1.27 - Carmichael numbers.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/69%20-%20ex%201.27%20-%20Carmichael%20numbers.js)
+* [69 - ex 1.28 - isPrime (Miller-Rabin test).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/69%20-%20ex%201.28%20-%20isPrime%20(Miller-Rabin%20test).js)
+
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
