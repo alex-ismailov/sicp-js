@@ -57,6 +57,8 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 ##### 1.3.1. Процедуры в качестве аргументов
 * [70 - sum integers.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/70%20-%20sum%20integers.js)
 * [71 - sum as higher order function.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/71%20-%20sum%20as%20higher%20order%20function.js)
+* [71 - sum as HOF (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/71%20-%20sum%20as%20HOF%20(linear%20recursive).js)
+* [73 - ex 1.30 - sum as HOF (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/73%20-%20ex%201.30%20-%20sum%20as%20HOF%20(linear%20iterative).js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
