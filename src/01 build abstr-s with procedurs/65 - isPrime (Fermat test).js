@@ -18,8 +18,6 @@ const expmod = (base, exp, m) => {
     : (base * expmod(base, exp - 1, m)) % m;
 };
 
-// const expmod = (a, n, m) => (a ** n) % m; // have bug
-
 const fermatTest = (n) => {
   const tryIt = (a) => expmod(a, n, n) === a;
   return tryIt(random(n));
@@ -36,9 +34,6 @@ const isPrime = (n, times) => {
 
 
 /* testing */
-// console.log(expmod(5, 7, 7));
-// console.log(expmod2(5, 7, 7));
-
 console.log(isPrime(4, 3)); // false
 console.log(isPrime(7, 3)); // true
 console.log(isPrime(12, 3)); // false
@@ -46,5 +41,3 @@ console.log(isPrime(17, 3)); // true
 
 console.log(isPrime(139, 3)); // true
 console.log(isPrime(179, 3)); // true
-
-// console.log(isPrime(561, 100)); // true -> Carmichael numbers ! is not prime
