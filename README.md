@@ -60,6 +60,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [71 - sum as HOF (linear recursive).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/71%20-%20sum%20as%20HOF%20(linear%20recursive).js)
 * [73 - ex 1.30 - sum as HOF (linear iterative).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/73%20-%20ex%201.30%20-%20sum%20as%20HOF%20(linear%20iterative).js)
 * [73 - ex 1.31 - product.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/73%20-%20ex%201.31%20-%20product.js)
+* [74 - ex 1.32 - accumulate.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/74%20-%20ex%201.32%20-%20accumulate.js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
