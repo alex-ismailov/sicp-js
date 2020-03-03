@@ -61,7 +61,11 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [73 - ex 1.31 - product.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/73%20-%20ex%201.31%20-%20product.js)
 * [74 - ex 1.32 - accumulate.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/74%20-%20ex%201.32%20-%20accumulate.js)
 * [74 - ex 1.33 - filter.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/74%20-%20ex%201.33%20-%20filter.js)
+
+##### 1.3.2. Построение процедур с помощью lambda
 * [75 - pi sum (lambda).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/75%20-%20pi%20sum%20(lambda).js)
+
+###### Создание локальных переменных с помощью const
 * [76 - local vars (const).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/76%20-%20local%20vars%20(const).js)
 * [78 - ex 1.34 - f(g).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/78%20-%20ex%201.34%20-%20f(g).js)
 
