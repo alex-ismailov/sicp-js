@@ -73,6 +73,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 ###### Нахождение корней уравнений методом половинного деления
 * [78 - half-interval method.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/78%20-%20half-interval%20method.js)
 
+###### Нахождение неподвижных точек функций
+* [80 - fixed point.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/80%20-%20fixed%20point.js)
+* [81 - sqrt as fixed point.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/81%20-%20sqrt%20as%20fixed%20point.js)
+
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
 ##### 2.2.1. Представление последовательностей
