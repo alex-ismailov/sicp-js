@@ -65,6 +65,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [76 - local vars (const).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/76%20-%20local%20vars%20(const).js)
 * [78 - ex 1.34 - f(g).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/78%20-%20ex%201.34%20-%20f(g).js)
 
+##### 1.3.3. Процедуры как обобщенные методы
+###### Нахождение корней уравнений методом половинного деления
+* [78 - half-interval method.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/78%20-%20half-interval%20method.js)
+
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
 ##### 2.2.1. Представление последовательностей
