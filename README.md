@@ -82,6 +82,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [87 - ex 1.41 double (fn(fn(x))).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/87%20-%20ex%201.41%20double%20(fn(fn(x))).js)
 * [88 - ex 1.42 - compose.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/88%20-%20ex%201.42%20-%20compose.js)
 * [88 - ex 1.43 - repeated.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/88%20-%20ex%201.43%20-%20repeated.js)
+* [88 - ex 1.44 - smooth.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/88%20-%20ex%201.44%20-%20smooth.js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
