@@ -30,7 +30,7 @@ const repeated = (fn, count) => (arg) => {
 
 const repeated2 = (fn, count) => (
   count > 1
-    ? (x) => compose(repeated(fn, count - 1), fn)(x)
+    ? (x) => compose(repeated2(fn, count - 1), fn)(x)
     : fn
 );
 
