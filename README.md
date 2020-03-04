@@ -80,6 +80,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 ##### 1.3.4. Процедуры как возвращаемые значения
 ###### Абстракции и процедуры как полноправные объекты
 * [87 - ex 1.41 double (fn(fn(x))).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/87%20-%20ex%201.41%20double%20(fn(fn(x))).js)
+* [88 - ex 1.42 - compose.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/88%20-%20ex%201.42%20-%20compose.js)
 
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
