@@ -77,6 +77,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [80 - fixed point.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/80%20-%20fixed%20point.js)
 * [81 - sqrt as fixed point.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/81%20-%20sqrt%20as%20fixed%20point.js)
 
+##### 1.3.4. Процедуры как возвращаемые значения
+###### Абстракции и процедуры как полноправные объекты
+* [87 - ex 1.41 double (fn(fn(x))).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/01%20build%20abstr-s%20with%20procedurs/87%20-%20ex%201.41%20double%20(fn(fn(x))).js)
+
 ### 2. Построение абстракций с помощью данных.
 #### 2.2. Иерархические данные и свойство замыкания
 ##### 2.2.1. Представление последовательностей
