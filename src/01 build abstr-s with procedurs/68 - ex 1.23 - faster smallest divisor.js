@@ -35,7 +35,7 @@ const smallestDivisor = (num) => {
 /* version for big numbers */
 // const smallestDivisor = (n, testDiv) => {
 //   let div = testDiv;
-//   while(div ** 2 < n) {
+//   while(div ** 2 <= n) {
 //     if (isDivides(n, div)) {
 //       return div;
 //     }
