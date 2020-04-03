@@ -28,7 +28,7 @@ const unionSet = (set1, set2) => (
 
 /* testing */
 console.log('*** unionSet ***');
-const set1 = l(1, 2, 5, 4, 3, 12);
-const set5 = l(12, 1, 15, 11);
+const set1 = l(3, 1, 3);
+const set5 = l(12, 4, 2);
 const setOfUnion = unionSet(set1, set5);
 show(setOfUnion);
