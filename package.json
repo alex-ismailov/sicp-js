@@ -1,5 +1,5 @@
 {
-  "name": "JS SICP",
+  "name": "sicp-js",
   "version": "0.0.0",
   "description": "SICP examples and exercises",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "@babel/core": "^7.7.4",
     "@babel/node": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "@hexlet/pairs-data": "^1.0.9",
+    "@hexlet/pairs-data": "^1.0.10",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.0",
     "eslint-config-airbnb-base": "^14.0.0",
