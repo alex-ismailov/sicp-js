@@ -3,8 +3,8 @@ import {
 } from '@hexlet/pairs-data';
 import {
   entry, leftBranch, rightBranch, makeTree,
-} from '../../libs/binTreeLib';
-import { show, concat } from '../../libs/seqlib';
+} from '../../libs/binTreeLib.js';
+import { show, concat } from '../../libs/seqlib.js';
 
 const adjoinSet = (x, set) => {
   if (isEmpty(set)) {
