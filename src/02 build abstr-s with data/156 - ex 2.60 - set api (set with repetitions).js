@@ -42,8 +42,8 @@ const unionSet = (set1, set2) => (
 const unionSet2 = (set1, set2) => concat(set1, set2);
 
 /* testing */
-const set1 = l(2, 3, 2, 1, 3, 2, 2);
-const set2 = l(5, 4, 3, 5, 1, 6, 7);
+const set1 = l(2, 3, 2);
+const set2 = l(5, 1, 6);
 
 // O n
 console.log('*** isElementOfSet ***');
