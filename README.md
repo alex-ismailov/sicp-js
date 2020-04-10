@@ -162,7 +162,7 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [148 - ex 2.53 print in respons.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/148%20-%20ex%202.53%20print%20in%20respons.js)
 * [149 - ex 2.54 - isEqual.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/149%20-%20ex%202.54%20-%20isEqual.js)
 
-##### 2.3.3. Пример: представление множеств - 154
+##### 2.3.3. Пример: представление множеств - 154 стр.
 * [155 - set as unordered list.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/155%20-%20set%20as%20unordered%20list.js)
 * [156 - ex 2.59 union set.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/156%20-%20ex%202.59%20union%20set.js)
 * [156 - ex 2.60 - set api (set with repetitions)](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/156%20-%20ex%202.60%20-%20set%20api%20(set%20with%20repetitions).js).js
@@ -171,5 +171,9 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [159 - ex 2.62 - unionSet (ordered set).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/159%20-%20ex%202.62%20-%20unionSet%20(ordered%20set).js)
 * [159 - sets as binary trees.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/159%20-%20sets%20as%20binary%20trees.js)
 * [161 - ex 2.63 - treeToList (bin tree).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/161%20-%20ex%202.63%20-%20treeToList%20(bin%20tree).js)
-* 
+* [161 - ex 2.64 list to bal-tree.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/161%20-%20ex%202.64%20list%20to%20bal-tree.js)
+* [162 - ex 2.65 union-set intersection-set.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/162%20-%20ex%202.65%20union-set%20intersection-set.js)
+* [163 - ex 2.66 - lookup.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/163%20-%20ex%202.66%20-%20lookup.js)
 
+##### 2.3.4. Пример: деревья кодирования по Хаффману - 163 стр.
+* []()
