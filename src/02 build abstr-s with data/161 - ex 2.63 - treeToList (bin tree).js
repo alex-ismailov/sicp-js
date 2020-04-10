@@ -26,6 +26,7 @@ const treeToList1 = (tree) => (
       cons(entry(tree), treeToList1(rightBranch(tree))))
 );
 
+/* faster */
 const treeToList2 = (set) => {
   const iter = (tree, acc) => (
     isEmpty(tree)
