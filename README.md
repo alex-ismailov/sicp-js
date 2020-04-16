@@ -176,4 +176,13 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [163 - ex 2.66 - lookup.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/163%20-%20ex%202.66%20-%20lookup.js)
 
 ##### 2.3.4. Пример: деревья кодирования по Хаффману - 163 стр.
+###### Представление деревьев Хаффмана
+* [166 - Huffman trees interface.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/166%20-%20Huffman%20trees%20interface.js)
+
+###### Процедура декодирования
+* [167 - Huffman tree decoding.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/167%20-%20Huffman%20tree%20decoding.js)
+
+###### Множества взвешенных элементов
+* [168 - sets of weighted elements.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/168%20-%20sets%20of%20weighted%20elements.js)
+* [169 - ex 2.67 - decoding tree.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.67%20-%20decoding%20tree.js)
 * []()
