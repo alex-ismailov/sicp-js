@@ -42,8 +42,8 @@ const makeCodeTree = (left, right) => l(
   getWeight(left) + getWeight(right),
 );
 
-// const getLeftBranch = (tree) => head(tree);
-// const getRightBranch = (tree) => head(tail(tree));
+const getLeftBranch = (tree) => head(tree);
+const getRightBranch = (tree) => head(tail(tree));
 
 const adjoinSet = (x, set) => {
   if (isEmpty(set)) {
@@ -79,8 +79,16 @@ const successiveMerge = (trees) => {
   );
 };
 
-const generateHuffmanTree = (pairs) => successiveMerge(makeLeafSet(pairs));
+const generateHuffmanTree = (pairs) => {
+
+  return successiveMerge(makeLeafSet(pairs));
+};
 
 /* testing */
-const data = l(l('A', 4), l('B', 2), l('C', 1), l('D', 1));
-show(generateHuffmanTree(data));
+// const data = l(l('A', 4), l('B', 2), l('C', 1), l('D', 1));
+// show(generateHuffmanTree(data));
+
+export {
+  generateHuffmanTree, makeLeaf, makeLeafSet, isLeaf, makeCodeTree, getSymbols,
+  getLeftBranch, getRightBranch,
+};
