@@ -22,7 +22,7 @@ const makeLeafSet = (pairs) => {
   const pair = head(pairs);
 
   return adjoinSet(
-    makeLeaf(head(pair), tail(pair)),
+    makeLeaf(head(pair), head(tail(pair))),
     makeLeafSet(tail(pairs)),  
   );
 };
@@ -30,5 +30,5 @@ const makeLeafSet = (pairs) => {
 /* testing */
 // const data = l(l('A', 4), l('B', 2), l('C', 1), l('D', 1));
 // show(data); // => ((A, 4), (B, 2), (C, 1), (D, 1))
-// show(makeLeafSet(data)); // => ((leaf, D, (1)), (leaf, C, (1)), (leaf, B, (2)), (leaf, A, (4)))
 
+export { adjoinSet, makeLeafSet };
