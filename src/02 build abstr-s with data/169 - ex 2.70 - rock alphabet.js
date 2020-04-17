@@ -99,16 +99,30 @@ show(rockTree);
 // 36)
 
 
-const msg1 = l('Get', 'a', 'job');
-const msg2 = l('Sha', 'na', 'na', 'na', 'na', 'na', 'na', 'na', 'na');
-const msg3 = l('Get', 'a', 'job');
-const msg4 = l('Sha', 'na', 'na', 'na', 'na', 'na', 'na', 'na', 'na');
-const msg5 = l('Wah', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip');
-const msg6 = l('Sha', 'boom');
+// const msg1 = l('Get', 'a', 'job');
+// const msg2 = l('Sha', 'na', 'na', 'na', 'na', 'na', 'na', 'na', 'na');
+// const msg3 = l('Get', 'a', 'job');
+// const msg4 = l('Sha', 'na', 'na', 'na', 'na', 'na', 'na', 'na', 'na');
+// const msg5 = l('Wah', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip');
+// const msg6 = l('Sha', 'boom');
 
-show(encode(msg1, rockTree)); // (1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0)
-show(encode(msg2, rockTree)); // (1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-show(encode(msg3, rockTree)); // (1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0)
-show(encode(msg4, rockTree)); // (1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-show(encode(msg5, rockTree)); // (1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0)
-show(encode(msg6, rockTree)); // (1, 1, 1, 0, 1, 1, 0, 1, 1)
+// show(encode(msg1, rockTree)); // (1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0)
+// show(encode(msg2, rockTree)); // (1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+// show(encode(msg3, rockTree)); // (1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0)
+// show(encode(msg4, rockTree)); // (1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+// show(encode(msg5, rockTree)); // (1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0)
+// show(encode(msg6, rockTree)); // (1, 1, 1, 0, 1, 1, 0, 1, 1)
+
+const song = l(
+  'Get', 'a', 'job',
+  'Sha', 'na', 'na', 'na', 'na', 'na', 'na', 'na', 'na',
+  'Get', 'a', 'job',
+  'Sha', 'na', 'na', 'na', 'na', 'na', 'na', 'na', 'na',
+  'Wah', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip', 'yip',
+  'Sha', 'boom'
+);
+
+const res = encode(song, rockTree);
+// (1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1)
+
+
