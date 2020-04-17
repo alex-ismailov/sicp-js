@@ -54,29 +54,33 @@ const encode = (message, tree) => (
 );
 
 /* testing */
-const sampleTree = makeCodeTree(makeLeaf('A', 4),
-                    makeCodeTree(
-                      makeLeaf('B', 2),
-                      makeCodeTree(
-                        makeLeaf('D', 1),
-                        makeLeaf('C', 1),
-                      ),
-));
+// const sampleTree = makeCodeTree(makeLeaf('A', 4),
+//                     makeCodeTree(
+//                       makeLeaf('B', 2),
+//                       makeCodeTree(
+//                         makeLeaf('D', 1),
+//                         makeLeaf('C', 1),
+//                       ),
+// ));
 
-const msgA = l('A');
-const msgB = l('B');
-const msgC = l('C');
-const msgD = l('D');
-const msg1 = l('A', 'D', 'A', 'B', 'B', 'C', 'A');
+// const msgA = l('A');
+// const msgB = l('B');
+// const msgC = l('C');
+// const msgD = l('D');
+// const msg1 = l('A', 'D', 'A', 'B', 'B', 'C', 'A');
 // const msg3 = l('A', 'C', '/', 'D', 'C');
 
-show(encode(msgA, sampleTree)); // => (0)
-show(encode(msgB, sampleTree)); // => (1, 0)
-show(encode(msgD, sampleTree)); // => (1, 1, 0)
-show(encode(msgC, sampleTree)); // => (1, 1, 1)
+// show(encode(msgA, sampleTree)); // => (0)
+// show(encode(msgB, sampleTree)); // => (1, 0)
+// show(encode(msgD, sampleTree)); // => (1, 1, 0)
+// show(encode(msgC, sampleTree)); // => (1, 1, 1)
 
-show(encode(msg1, sampleTree)); // => l(0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0);
+// show(encode(msg1, sampleTree)); // => l(0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0);
 // (0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0)
 // (0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0)
 
 // show(encode(msg3, sampleTree)); // => throw Error: плохой бит -- CHOOSE-BRANCH: '/'!
+
+export {
+  encode,
+};
