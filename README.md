@@ -185,3 +185,4 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [169 - ex 2.67 - decoding tree.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.67%20-%20decoding%20tree.js)
 * [169 - ex 2.68 - encode.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.68%20-%20encode.js)
 * [169 - ex 2.69 - generate Huffman tree.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.69%20-%20generate%20Huffman%20tree.js)
+* [169 - ex 2.70 - rock alphabet.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.70%20-%20rock%20alphabet.js)
