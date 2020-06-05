@@ -136,8 +136,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [124 - product of squares of odd elems.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/124%20-%20product%20of%20squares%20of%20odd%20elems.js)
 * [125 - ex 2.33 - finish writing.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/125%20-%20ex%202.33%20-%20finish%20writing.js)
 * [126 - ex 2.35 - countLeaves (lReduce).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/126%20-%20ex%202.35%20-%20countLeaves%20(lReduce).js)
-* [126 - ex 2.36 - accumulate-n.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/126%20-%20ex%202.36%20-%20accumulate-n.js)
-* [127 - ex 2.38 - fold left.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/127%20-%20ex%202.38%20-%20fold%20left.js)
+* [126 - ex 2.36 - accumulate-n.js### 2. Построение абстракций с помощью данных.
+#### 2.2. Иерархические данные и свойство замыкания
+##### 2.2.1. Представление последовательностей
+###### Операции со списками
 * [128 - ex 2.39 - reverse (foldLeft-Right).js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/128%20-%20ex%202.39%20-%20reverse%20(foldLeft-Right).js)
 
 ###### Вложенные отображения
@@ -186,3 +188,9 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 * [169 - ex 2.68 - encode.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.68%20-%20encode.js)
 * [169 - ex 2.69 - generate Huffman tree.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.69%20-%20generate%20Huffman%20tree.js)
 * [169 - ex 2.70 - rock alphabet.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/02%20build%20abstr-s%20with%20data/169%20-%20ex%202.70%20-%20rock%20alphabet.js)
+
+### 3. Модульность, Объекты и состояние
+#### 3.1. Присваивание и внутреннее состояние объектов
+##### 3.1.1. Внутренние переменные состояния - 213 стр.
+* [216 - make withdraw.js]()
+* [215 - make withdraw with balance.js]()
