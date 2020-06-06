@@ -10,17 +10,14 @@
 (A 10) // => 25
 */
 
-const makeAccumulator = (acc) => {
-  return (num) => {
-    acc += num;
-    return acc;
-  };
-};
+const makeAccumulator = (acc) => (num) => acc += num;
 
 /* testing */
 const A = makeAccumulator(5);
 const res1 = A(10); // => 15
-const res2 = A(20); // 35
+const res2 = A(20); // => 35
+const res3 = A(15); // => 50
 
 console.log(res1);
 console.log(res2);
+console.log(res3);
