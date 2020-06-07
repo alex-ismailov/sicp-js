@@ -192,5 +192,10 @@ src: [http://newstar.rinet.ru/~goga/sicp/sicp.pdf](http://newstar.rinet.ru/~goga
 ### 3. Модульность, Объекты и состояние
 #### 3.1. Присваивание и внутреннее состояние объектов
 ##### 3.1.1. Внутренние переменные состояния - 213 стр.
-* [216 - make withdraw.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/214%20-%20make%20withdraw.js)
-* [215 - make withdraw with balance.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/215%20-%20make%20withdraw%20with%20balance.js)
+* [216 - make withdraw.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/214%20-%20make%20withdraw/214%20-%20make%20withdraw.js)
+* [215 - make withdraw with balance.js](https://github.com/alex-ismailov/sicp-js/blob/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/215%20-%20make%20withdraw%20with%20balance/215%20-%20make%20withdraw%20with%20balance.js)
+* [216 - makeAccount with dispatch](https://github.com/alex-ismailov/sicp-js/tree/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/216%20-%20makeAccount%20with%20dispatch)
+* [217 - ex. 3.1 - accumulator](https://github.com/alex-ismailov/sicp-js/tree/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/217%20-%20ex.%203.1%20-%20accumulator)
+* [217 - ex. 3.2 - make-monitored](https://github.com/alex-ismailov/sicp-js/tree/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/217%20-%20ex.%203.2%20-%20make-monitored)
+* [217 - ex. 3.3 - make-account with password](https://github.com/alex-ismailov/sicp-js/tree/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/217%20-%20ex.%203.3%20-%20make-account%20with%20password)
+* [217 - ex. 3.4 - make-account with password and cops](https://github.com/alex-ismailov/sicp-js/tree/master/src/03%20Modularity%2C%20Objects%2C%20and%20State/217%20-%20ex.%203.4%20-%20make-account%20with%20password%20and%20cops)
