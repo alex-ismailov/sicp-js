@@ -33,7 +33,7 @@ const makeAccount = (accountBalance, accountPassword) => {
     return balance;
   };
   const dispatch = (pass, msg) => {
-    if (pass !== password) {
+    if (pass !== password) { // guard expression
       return 'Incorrect password, try again';
     }
     switch (msg) {
