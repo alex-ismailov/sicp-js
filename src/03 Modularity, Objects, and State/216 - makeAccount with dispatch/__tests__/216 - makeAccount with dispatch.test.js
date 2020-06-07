@@ -17,6 +17,9 @@ describe('3.1.1 Local State Variables', () => {
     test('withdraw', () => {
       expect(newAccount('withdraw')(50)).toBe(50);
     });
+    test('withdraw an amount exceeding the balance', () => {
+      expect(newAccount('withdraw')(500)).toEqual('insufficient funds');
+    });
     test('deposit', () => {
       expect(newAccount('deposit')(40)).toBe(90);
     });
