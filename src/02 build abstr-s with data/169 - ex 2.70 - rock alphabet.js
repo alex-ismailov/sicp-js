@@ -125,4 +125,15 @@ const song = l(
 const res = encode(song, rockTree);
 // (1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1)
 
+const countBits = (bits) => {
+  const iter = (currentBit, acc) => (
+    isEmpty(currentBit)
+      ? acc
+      : iter(tail(currentBit), acc + 1)
+  );
+
+  return iter(bits, 0);
+};
+const bitAmount = countBits(res);
+show(`amount of bits: ${bitAmount}`);
 
